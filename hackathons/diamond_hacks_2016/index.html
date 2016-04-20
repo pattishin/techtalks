@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Build with Confidence - @pattishin</title>
+
+		<meta name="description" content="Quick start on your own web application development">
+		<meta name="author" content="pattishin">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+    <!-- Main Content-->
+	<body class="main-content">
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                <section>
+                  <h2>Build with Confidence</h2>
+                  <h4>Jive into front-end web development</h4>
+                  <medium>
+                    <p>Patti Shin / <a href="http://twitter.com/pattishin">@pattishin</a></p>
+                    <p>Full Stack Developer @ ReverbNation</p>
+                  </medium>
+				</section>
+
+				<section>
+                  <h3>Web Anatomy</h3>
+                  <h5>Separation of concerns</h5>
+                  <ul id="fragments">
+                    <li class="fragment">
+                      <img data-src="./images/skeleton.png" />
+                      <h6>HTML</h6>
+                      <div class="fragment">
+                        <p>"The Skeleton"</p>
+                        <p>How the user interface is structured.</p>
+                      </div>
+                    </li>
+                    <li class="fragment">
+                      <img data-src="./images/skin.png" />
+                      <h6>CSS</h6> 
+                      <div class="fragment">
+                        <p>"The Skin"</p>
+                        <p>How the user interface looks.</p>
+                      </div>
+                    </li>
+                    <li class="fragment">
+                      <img data-src="./images/muscle.png" />
+                      <h6>JavaScript</h6> 
+                      <div class="fragment">
+                        <p>"The Muscle"</p>
+                        <p>How the user interface interacts.</p>
+                      </div>
+                    </li>
+                  </ul>
+				</section>
+
+                <section>
+                  <section data-markdown>
+                    <script type="text/template">
+                      ## Basic setup
+                      ```
+                      <!doctype html>
+                      ```
+                      ```
+                      <html lang="en">
+                      ```
+                      ```
+                      <head>
+                        ```
+                        ```
+                        <meta charset="utf-8">
+                        ```
+                        ```
+                        <title>Build with Confidence - @pattishin</title>
+                        ```
+                        ```
+                        <meta name="description" content="Quick start on your own web application development">
+                        ```
+                        ```
+                        <meta name="author" content="pattishin">
+                        ```
+                        ```
+                        <!-- Your styles-->
+                        ```
+                        ```
+                        <link rel="stylesheet" href="yourcss.css">
+                        ```
+                        ```
+                      </head>
+                      ```
+                      ```
+                      <body>
+                        ```
+                        ```
+                        <h1> Coffee! </h1>
+                        ```
+                        ```
+                      </body>
+                      ```
+                    </script>
+                  </section>
+                  
+                  <section data-markdown>
+                    <script type="text/template">
+                      ```
+                      <!-- Your javascript-->
+                      ```
+                      ```
+                      <script type="text/javascript" src="yourjs.js" />
+                      ```
+                      ```
+                      </html>
+                      ```
+                    </script>
+                  </section>
+                </section>
+                
+                <section>
+                  <h3>Suggested developer tools</h3>
+                  <div class="fragment">
+                    <p>Browser Debugging Tools</p>
+                    <pre><code>Open Chrome, View > Developer > Developer Tools</code></pre>
+                  </div>
+                  <ul id="fragments" class="side-list">
+                    <li class="fragment">
+                      <p>GitHub</p>
+                      <img data-src="./images/octocat.png" />
+                    </li>
+                    <li class="fragment">
+                      <p>npm</p>
+                      <img data-src="./images/npm.png" />
+                      <pre><code>npm install react</code></pre>  
+                    </li>
+                  </ul>
+                </section>
+                
+                <section>
+                  <h3>Feeling Adventurous?</h3>
+                  <h5>Leverage some popular frameworks
+                  <ul id="fragments" class="side-list">
+                    <li class="fragment">
+                      <p>BackboneJS</p>
+                      <img data-src="./images/backbone.png"/>
+                    </li>
+                    <li class="fragment">
+                      <p>MarionetteJS</p>
+                      <img data-src="./images/marionette.png"/>
+                    </li>
+                    <li class="fragment">
+                      <p>ReactJS</p>
+                      <img data-src="./images/react.png"/>
+                    </li>
+                    <li class="fragment">
+                      <p>AngularJS</p>
+                      <img data-src="./images/angular.png" />
+                    </li>
+                  </ul>
+                </section>
+                
+                <section>
+                  <h3>Quick deploys?</h3>
+                  <ul id="fragments" class="side-list">
+                    <li class="fragment">
+                      <p>GitHub.io</p>
+                      <img data-src="./images/octocat.png" />
+                    </li>
+                    <li class="fragment">
+                      <p>Heroku<p>
+                      <img data-src="./images/heroku.png" />  
+                    </li>
+                  </ul>
+                </section>
+                
+                <section>
+                  <h3>Utilize APIs to populate your application</h3>
+                  <p>Star Wars Example: <a href="https://swapi.co/">https://swapi.co/</a></p>
+                  <div class="star-wars-data">
+                    <a>Populate!</a>
+                    <div class="response"></div>
+                  </div>
+                </section>
+                
+                <section>
+                  <p>
+                    <q>&ldquo;Do one thing every day that scares you&rdquo;</q> 
+                    <strong><i>- Eleanor Roosevelt</i></strong>
+                  </p>
+				</section>
+
+				<section style="text-align: center;">
+                  <h1>Finis</h1>
+                  <img data-src="./images/yox.jpg" />
+				</section>
+			</div>
+		</div>
+
+        <!-- js libs-->
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+        <!-- main js-->
+        <script type="text/javascript" src="js/main/presentation.js"></script>
+	</body>
+</html>
+
